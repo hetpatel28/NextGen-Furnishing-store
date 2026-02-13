@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css folder/1.css">
+    <title>NextGen Furnishings & Digital Store</title>
+
+</head>
+<body>
+    <!-- Header -->
+    <div id="navbar"></div>
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="1.html"><h1><span>N</span>ext<span>G</span>en <span>F</span>urnishings</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#Hero" data-after="Home">Home</a></li>
+                        <li><a href="#products" data-after="products">Our product</a></li>
+                        <li><a href="#Gallery" data-after="Gallery">Gallery</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                        <li><a href="Cart.html" data-after="cart">🛒<span id="cart-count">0</span></a></li>
+                        <li><a href="login.html" data-after="login" id="navbar-login">login</a></li>
+                        <li id="nav-user"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Hero section -->
+    <section id="Hero">
+        <div class="slideshow-container">
+            <div class="mySlides fade" >
+                <div class="numbertext">1 / 4</div>
+                <img src="../images/s1.jpg"  >
+                <div class="text">Caption Text</div>
+            </div>
+        
+            <div class="mySlides fade" >
+                <div class="numbertext">2 / 4</div>
+                <img src="../images/s2.jpg" >
+                <div class="text">Caption Two</div>
+            </div>
+        
+            <div class="mySlides fade" >
+                <div class="numbertext">3 / 4</div>
+                <img src="../images/s3.jpg" >
+                <div class="text">Caption Three</div>
+            </div>
+        
+            <div class="mySlides fade" >
+                <div class="numbertext">4 / 4</div>
+                <img src="../images/s4.jpg">
+                <div class="text">Caption four</div>
+            </div>
+            <br>
+        
+            <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span> 
+            </div>
+
+            <script>
+            let slideIndex = 0;
+            showSlides();
+        
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+        </div>
+        <div class="overlay">
+            <h1>Elevate<span></span></h1>
+            <h1>Your  <span></span></h1>
+            <h1>Living Space <span></span></h1>
+            <a href="#contact" type="button" class="btn">Get a Quote</a>
+        </div>
+    </section>
+    <!-- End Hero section -->
+
+    <!-- product section -->
+    <section id="products">
+        <div class="products container">
+            <div class="product-top">
+                <h1 class="section-title"><span>p</span>roducts</h1>
+                <p>Discover a wide range of ergonomic and stylish furniture to elevate your space’s aesthetics and comfort.</p>
+            </div>
+            <div class="product-bottom">    
+                <div class="product-item">
+                    <div class="icon"><a href="../html/p1Chair.html"><img src="../images/P-1.webp" alt=""></a></div>
+                <h2>ERGONOMIC CHAIRS</h2>
+                <p>Discover our comfortable, premium collection of revolving chairs.</p>
+                </div>
+                <div class="product-item">
+                    <div class="icon"><a href="../html/p2Table.html"><img src="../images/P-2.webp" alt=""></a></div>
+                <h2>EXECUTIVE TABLES</h2>
+                <p>Discover stylish office and home tables for every need.</p>
+                </div>
+                <div class="product-item">
+                    <div class="icon"><a href="../html/p3Desk.html"><img src="../images/P-3.webp" alt=""></a></div>
+                <h2>HEIGHT ADJUSTABLE DESKS</h2>
+                <p>Improve productivity with ergonomic height adjustable desks for yourself.</p>
+                </div>
+                <div class="product-item">
+                    <div class="icon"><a href="../html/p4Benches.html"><img src="../images/P-4.webp" alt=""></a></div>
+                <h2>CLASSROOM BENCHES</h2>
+                <p>Enhance learning with durable, comfortable classroom benches available.</p>
+                </div>
+                <div class="product-item">
+                    <div class="icon"><a href="../html/p5WaitingC.html"><img src="../images/P-5.webp" alt=""></a></div>
+                <h2>STYLISH WAITING CHAIRS</h2>
+                <p>Comfortable waiting chairs designed for relaxation in any space.</p>
+                </div>
+                <div class="product-item">
+                    <div class="icon"><a href="../html/p6sofas.html"><img src="../images/P-6.webp" alt=""></a></div>
+                <h2>ELEGANT SOFAS</h2>
+                <p>Chill sofas that bring comfort and style to any room.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- End product section -->
+    <!-- Gallery sectoin -->
+    <section id="Gallery">
+        <div class="Gallery container">
+            <div class="Gallery-header">
+                <h1 class="section-title"><span>G</span>allery</h1>
+            </div>
+            <div class="all-Gallery">
+                <div class="Gallery-item">
+                    <div class="Gallery-info">
+                        <h1>Study room</h1>
+                        <p>The study room is a tranquil space, adorned with shelves of books and a sturdy desk. Soft lighting creates a warm atmosphere, perfect for concentration. A comfortable chair invites long hours of reading or writing, while inspirational art on the walls encourages creativity. It's an ideal haven for focused learning</p>
+                    </div>
+                    <div class="Gallery-img">
+                        <img src="../images/G-1.webp" alt="img">
+                    </div>
+                </div>
+                <div class="Gallery-item">
+                    <div class="Gallery-info">
+                        <h1>Office Desk</h1>
+                
+                        <p>This office desk is a sleek, modern workspace, featuring a smooth surface for laptops and paperwork. Organized drawers hold essential supplies, while a stylish lamp provides warm illumination. A comfortable chair complements the setup, creating an inviting atmosphere. It's a hub of productivity, inspiring focus and creativity throughout the day.</p>
+                    </div>
+                    <div class="Gallery-img">
+                        <img src="../images/G-2.webp" alt="img">
+                    </div>
+                </div>
+                <div class="Gallery-item">
+                    <div class="Gallery-info">
+                        <h1>Bar Stool</h1>
+                        
+                        <p>The bar stool boasts a sleek design, with a sturdy metal frame and a cushioned seat for comfort. Its adjustable height makes it versatile for various counter sizes. The elegant finish complements any decor, while the footrest adds extra support. Perfect for casual dining or socializing in style.</p>
+                    </div>
+                    <div class="Gallery-img">
+                        <img src="../images/G-3.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="Gallery-item">
+                    <div class="Gallery-info">
+                        <h1>Waiting Office Area</h1>
+                        
+                        <p>This office waiting area features modern seating with plush chairs and a sleek coffee table. Soft lighting creates a welcoming ambiance, while artful decor adds a touch of sophistication. Magazines and informational brochures are neatly displayed, ensuring guests feel comfortable and engaged while they await their appointments in this inviting space.</p>
+                    </div>
+                    <div class="Gallery-img">
+                        <img src="../images/G-4.webp" alt="img">
+                    </div>
+                </div>
+                <div class="Gallery-item">
+                    <div class="Gallery-info">
+                        <h1>Premium Sofa</h1>
+                        
+                        <p>The sofa in this premium house exudes luxury, with rich upholstery and a plush, inviting design. Elegant lines and tasteful accents complement the sophisticated decor. Spacious enough for lounging, it invites relaxation and conversation, making it the perfect centerpiece for the living room, embodying comfort and style in every detail.</p>
+                    </div>
+                    <div class="Gallery-img">
+                        <img src="../images/G-5.webp" alt="img">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery sectoin -->
+
+    <!-- About section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="../images/about-1.jpg"alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>us</span></h1>
+                <h2>Crafting Stunning Spaces</h2>
+                <p>At NextGen furnishings And Digital Store, we believe furniture is an expression of your style. Founded in 2024, we offer a curated selection of high-quality, stylish pieces that blend timeless elegance with modern trends. Committed to sustainability and exceptional craftsmanship, our furniture is designed to last. Our dedicated team is here to provide personalized service, ensuring a seamless shopping experience. Transform your space with us—your dream home awaits!</p>
+                <a href="../PDFs/cataloge.pdf" target="_blank" class="btn">Open catalog</a>
+            </div>              
+        </div>
+    </section>
+    <!-- End About section -->
+
+    <!-- contact section -->
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">contact <span>info</span></h1></div>
+            <div class="contact-iteams">
+                <div class="contact-iteam">
+                    <div class="icon"><img src="../images/icons8-phone-50.png" alt=""></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 987654321</h2>
+                        <h2>+91 987654321</h2>
+                    </div>
+                </div>
+                <div class="contact-iteam">
+                    <div class="icon"><img src="../images/icons8-mail-50.png" alt=""></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>email@email.com</h2>
+                        <h2>email@email.com</h2>
+                    </div>
+                </div>
+                <div class="contact-iteam">
+                    <div class="icon"><img src="../images/icons8-map-marker-50.png" alt=""></div>
+                    <div class="contact-info">
+                        <h1>Addrees</h1>
+                        <h2>xyz abcd</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End contact section -->
+    <!-- footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1><span>N</span>ext<span>G</span>en <span>F</span>urnishings</h1></div>
+            <h2>Redesign Your Living Space </h2>
+            <div class="social-icon">
+                <div class="social-iteam">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/icons8-facebook-f-50.png" alt=""></a>
+                </div>
+                <div class="social-iteam">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="../images/icons8-instagram-50.png" alt=""></a>
+                </div>
+                <div class="social-iteam">
+                    <a href="https://www.x.com/" target="_blank"><img src="../images/icons8-twitter-squared-50.png" alt=""></a>
+                </div>
+                <div class="social-iteam">
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="../images/icons8-linkedin-50.png" alt=""></a>
+                </div>
+            </div>
+            <p>Copyright * 2024 NextGen furnishings. All rights reserved.</p>
+        </div>
+    </section>
+    <!-- End footer -->
+<script src="../js/1.js"></script>
+<script src="../js/cart.js"></script>
+<script src="../js/login.js"></script>
+
+</body>
+</html>

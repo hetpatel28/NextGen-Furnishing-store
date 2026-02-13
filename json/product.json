@@ -1,0 +1,1093 @@
+[
+  {
+    "id": "0",
+    "name": "NXG901",
+    "price": "₹8500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb14.jpg",
+    "glb": "../Glbs/1.glb",
+    "stock": 87,
+    "sales": 34 
+  },
+  {
+    "id": "1",
+    "name": "NXG902",
+    "price": "₹9200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb1.jpg",
+    "glb": " ",
+    "stock": 63,
+    "sales": 19 
+  },
+  {
+    "id": "2",
+    "name": "NXG903",
+    "price": "₹7800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb2.jpg",
+    "glb": " ",
+    "stock": 0,
+    "sales": 55 
+  },
+  {
+    "id": "3",
+    "name": "NXG904",
+    "price": "₹10500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb3.jpg",
+    "glb": " ",
+    "stock": 78,
+    "sales": 22 
+  },
+  {
+    "id": "4",
+    "name": "NXG905",
+    "price": "₹11500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb4.jpg",
+    "glb": " ",
+    "stock": 91,
+    "sales": 40 
+  },
+  {
+    "id": "5",
+    "name": "NXG906",
+    "price": "₹12500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb5.jpg",
+    "glb": " ",
+    "stock": 104,
+    "sales": 60 
+  },
+  {
+    "id": "6",
+    "name": "NXG907",
+    "price": "₹13800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb6.jpg",
+    "glb": " ",
+    "stock": 72,
+    "sales": 28 
+  },
+  {
+    "id": "7",
+    "name": "NXG908",
+    "price": "₹15200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb7.jpg",
+    "glb": " ",
+    "stock": 118,
+    "sales": 47 
+  },
+  {
+    "id": "8",
+    "name": "NXG909",
+    "price": "₹16800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb8.jpg",
+    "glb": " ",
+    "stock": 69,
+    "sales": 33 
+  },
+  {
+    "id": "9",
+    "name": "NXG910",
+    "price": "₹18500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb9.jpg",
+    "glb": "../Glbs/20.glb",
+    "stock": 0,
+    "sales": 52 
+  },
+  {
+    "id": "10",
+    "name": "NXG911",
+    "price": "₹19800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb10.jpg",
+    "glb": " ",
+    "stock": 81,
+    "sales": 37 
+  },
+  {
+    "id": "11",
+    "name": "NXG912",
+    "price": "₹21500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb11.jpg",
+    "glb": " ",
+    "stock": 109,
+    "sales": 59 
+  },
+  {
+    "id": "12",
+    "name": "NXG913",
+    "price": "₹22800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb12.jpg",
+    "glb": "../Glbs/21.glb",
+    "stock": 74,
+    "sales": 26 
+  },
+  {
+    "id": "13",
+    "name": "NXG914",
+    "price": "₹24200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/hb/hb13.jpg",
+    "glb": " ",
+    "stock": 99,
+    "sales": 41 
+  },
+  {
+    "id": "14",
+    "name": "NXG915",
+    "price": "₹19500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb1.jpg",
+    "glb": " ",
+    "stock": 76,
+    "sales": 32 
+  },
+  {
+    "id": "15",
+    "name": "NXG916",
+    "price": "₹20500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb2.jpg",
+    "glb": " ",
+    "stock": 88,
+    "sales": 46 
+  },
+  {
+    "id": "16",
+    "name": "NXG917",
+    "price": "₹21800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb3.jpg",
+    "glb": " ",
+    "stock": 102,
+    "sales": 58 
+  },
+  {
+    "id": "17",
+    "name": "NXG918",
+    "price": "₹22500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb4.jpg",
+    "glb": " ",
+    "stock": 70,
+    "sales": 21 
+  },
+  {
+    "id": "18",
+    "name": "NXG919",
+    "price": "₹23500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb5.jpg",
+    "glb": " ",
+    "stock": 119,
+    "sales": 65 
+  },
+  {
+    "id": "19",
+    "name": "NXG920",
+    "price": "₹24500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb6.jpg",
+    "glb": " ",
+    "stock": 68,
+    "sales": 30 
+  },
+  {
+    "id": "20",
+    "name": "NXG921",
+    "price": "₹19800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb7.jpg",
+    "glb": " ",
+    "stock": 84,
+    "sales": 44 
+  },
+  {
+    "id": "21",
+    "name": "NXG922",
+    "price": "₹21500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb8.jpg",
+    "glb": "../Glbs/20.glb",
+    "stock": 97,
+    "sales": 51 
+  },
+  {
+    "id": "22",
+    "name": "NXG923",
+    "price": "₹22800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb9.jpg",
+    "glb": " ",
+    "stock": 110,
+    "sales": 60 
+  },
+  {
+    "id": "23",
+    "name": "NXG924",
+    "price": "₹24200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb10.jpg",
+    "glb": " ",
+    "stock": 93,
+    "sales": 48 
+  },
+  {
+    "id": "24",
+    "name": "NXG925",
+    "price": "₹25500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb11.jpg",
+    "glb": "../Glbs/18.glb",
+    "stock": 82,
+    "sales": 39 
+  },
+  {
+    "id": "25",
+    "name": "NXG926",
+    "price": "₹26800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb12.jpg",
+    "glb": " ",
+    "stock": 105,
+    "sales": 56 
+  },
+  {
+    "id": "26",
+    "name": "NXG927",
+    "price": "₹27500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/mb/mb13.jpg",
+    "glb": "../Glbs/Assest.glb",
+    "stock": 90,
+    "sales": 43 
+  },
+  {
+    "id": "27",
+    "name": "NXG928",
+    "price": "₹8500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb7.jpg",
+    "glb": "../Glbs/11.glb",
+    "stock": 88,
+    "sales": 38 
+  },
+  {
+    "id": "28",
+    "name": "NXG929",
+    "price": "₹9200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb1.jpg",
+    "glb": "../Glbs/4.glb",
+    "stock": 73,
+    "sales": 36 
+  },
+  {
+    "id": "29",
+    "name": "NXG930",
+    "price": "₹7800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb2.jpg",
+    "glb": "../Glbs/18.glb",
+    "stock": 101,
+    "sales": 49 
+  },
+  {
+    "id": "30",
+    "name": "NXG931",
+    "price": "₹10500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb3.jpg",
+    "glb": "../Glbs/12.glb",
+    "stock": 67,
+    "sales": 27 
+  },
+  {
+    "id": "31",
+    "name": "NXG932",
+    "price": "₹11500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb4.jpg",
+    "glb": "../Glbs/12.glb",
+    "stock": 85,
+    "sales": 42 
+  },
+  {
+    "id": "32",
+    "name": "NXG933",
+    "price": "₹12500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb5.jpg",
+    "glb": "../Glbs/7.glb",
+    "stock": 0,
+    "sales": 53 
+  },
+  {
+    "id": "33",
+    "name": "NXG934",
+    "price": "₹13800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb6.jpg",
+    "glb": "../Glbs/4.glb",
+    "stock": 108,
+    "sales": 64 
+  },
+  {
+    "id": "34",
+    "name": "NXG935",
+    "price": "₹15200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb8.jpg",
+    "glb": "../Glbs/4.glb",
+    "stock": 91,
+    "sales": 35 
+  },
+  {
+    "id": "35",
+    "name": "NXG936",
+    "price": "₹16800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/lb/lb9.jpg",
+    "glb": " ",
+    "stock": 79,
+    "sales": 29 
+  },
+  {
+    "id": "36",
+    "name": "NXG937",
+    "price": "₹18500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v0.jpg",
+    "glb": "../Glbs/10.glb",
+    "stock": 68,
+    "sales": 50 
+  },
+  {
+    "id": "37",
+    "name": "NXG938",
+    "price": "₹19800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v1.jpg",
+    "glb": " ",
+    "stock": 73,
+    "sales": 34 
+  },
+  {
+    "id": "38",
+    "name": "NXG939",
+    "price": "₹21500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v2.jpg",
+    "glb": "../Glbs/5.glb",
+    "stock": 66,
+    "sales": 55 
+  },
+  {
+    "id": "39",
+    "name": "NXG940",
+    "price": "₹22800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v3.jpg",
+    "glb": "../Glbs/5.glb",
+    "stock": 90,
+    "sales": 63 
+  },
+  {
+    "id": "40",
+    "name": "NXG941",
+    "price": "₹24200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v4.jpg",
+    "glb": " ",
+    "stock": 84,
+    "sales": 45 
+  },
+  {
+    "id": "41",
+    "name": "NXG942",
+    "price": "₹25500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v5.jpg",
+    "glb": " ",
+    "stock": 83,
+    "sales": 44 
+  },
+  {
+    "id": "42",
+    "name": "NXG943",
+    "price": "₹26800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v6.jpg",
+    "glb": "../Glbs/8.glb",
+    "stock": 106,
+    "sales": 49 
+  },
+  {
+    "id": "43",
+    "name": "NXG944",
+    "price": "₹27500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v7.jpg",
+    "glb": "../Glbs/8.glb",
+    "stock": 96,
+    "sales": 54 
+  },
+  {
+    "id": "44",
+    "name": "NXG945",
+    "price": "₹28500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Chair/visitor/v8.jpg",
+    "glb": "../Glbs/8.glb",
+    "stock": 76,
+    "sales": 30 
+  },
+  {
+    "id": "45",
+    "name": "NXG946",
+    "price": "₹22000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et1.jpg",
+    "glb": " ",
+    "stock": 77,
+    "sales": 34 
+  },
+  {
+    "id": "46",
+    "name": "NXG947",
+    "price": "₹23500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et2.jpg",
+    "glb": " ",
+    "stock": 102,
+    "sales": 48 
+  },
+  {
+    "id": "48",
+    "name": "NXG948",
+    "price": "₹24800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et3.jpg",
+    "glb": " ",
+    "stock": 89,
+    "sales": 40 
+  },
+  {
+    "id": "49",
+    "name": "NXG949",
+    "price": "₹26500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et4.jpg",
+    "glb": " ",
+    "stock": 96,
+    "sales": 52 
+  },
+  {
+    "id": "50",
+    "name": "NXG950",
+    "price": "₹27800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et5.jpg",
+    "glb": " ",
+    "stock": 83,
+    "sales": 36 
+  },
+  {
+    "id": "51",
+    "name": "NXG951",
+    "price": "₹29500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et6.jpg",
+    "glb": " ",
+    "stock": 71,
+    "sales": 29 
+  },
+  {
+    "id": "52",
+    "name": "NXG952",
+    "price": "₹30800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et7.jpg",
+    "glb": " ",
+    "stock": 109,
+    "sales": 55 
+  },
+  {
+    "id": "53",
+    "name": "NXG953",
+    "price": "₹32500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et8.jpg",
+    "glb": " ",
+    "stock": 68,
+    "sales": 24 
+  },
+  {
+    "id": "54",
+    "name": "NXG954",
+    "price": "₹33800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et9.jpg",
+    "glb": " ",
+    "stock": 98,
+    "sales": 44 
+  },
+  {
+    "id": "55",
+    "name": "NXG955",
+    "price": "₹35500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/Etable/et10.jpg",
+    "glb": " ",
+    "stock": 85,
+    "sales": 37 
+  },
+  {
+    "id": "56",
+    "name": "NXG1001",
+    "price": "₹36800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot1.jpg",
+    "glb": " ",
+    "stock": 97,
+    "sales": 41 
+  },
+  {
+    "id": "57",
+    "name": "NXG1002",
+    "price": "₹38500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot2.jpg",
+    "glb": " ",
+    "stock": 73,
+    "sales": 38 
+  },
+  {
+    "id": "58",
+    "name": "NXG1003",
+    "price": "₹39800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot3.jpg",
+    "glb": " ",
+    "stock": 82,
+    "sales": 46 
+  },
+  {
+    "id": "59",
+    "name": "NXG1004",
+    "price": "₹41500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot4.jpg",
+    "glb": " ",
+    "stock": 90,
+    "sales": 53 
+  },
+  {
+    "id": "60",
+    "name": "NXG1005",
+    "price": "₹42800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot5.jpg",
+    "glb": " ",
+    "stock": 79,
+    "sales": 33 
+  },
+  {
+    "id": "61",
+    "name": "NXG1006",
+    "price": "₹44500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot6.jpg",
+    "glb": " ",
+    "stock": 84,
+    "sales": 45 
+  },
+  {
+    "id": "62",
+    "name": "NXG1007",
+    "price": "₹35800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot7.jpg",
+    "glb": " ",
+    "stock": 105,
+    "sales": 58 
+  },
+  {
+    "id": "63",
+    "name": "NXG1008",
+    "price": "₹37500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot8.jpg",
+    "glb": " ",
+    "stock": 66,
+    "sales": 29 
+  },
+  {
+    "id": "64",
+    "name": "NXG1009",
+    "price": "₹38800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot9.jpg",
+    "glb": " ",
+    "stock": 99,
+    "sales": 42 
+  },
+  {
+    "id": "65",
+    "name": "NXG1010",
+    "price": "₹40500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot10.jpg",
+    "glb": " ",
+    "stock": 92,
+    "sales": 47 
+  },
+  {
+    "id": "66",
+    "name": "NXG1011",
+    "price": "₹41800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot11.jpg",
+    "glb": " ",
+    "stock": 0,
+    "sales": 39 
+  },
+  {
+    "id": "67",
+    "name": "NXG1012",
+    "price": "₹43500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot12.jpg",
+    "glb": " ",
+    "stock": 93,
+    "sales": 44 
+  },
+  {
+    "id": "68",
+    "name": "NXG1013",
+    "price": "₹44800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot13.jpg",
+    "glb": " ",
+    "stock": 76,
+    "sales": 35 
+  },
+  {
+    "id": "69",
+    "name": "NXG1014",
+    "price": "₹46500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Table/oTable/ot14.jpg",
+    "glb": " ",
+    "stock": 100,
+    "sales": 52 
+  },
+  {
+    "id": "70",
+    "name": "NXG956",
+    "price": "₹38500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Adesk/ad1.jpg",
+    "glb": " ",
+    "stock": 88,
+    "sales": 33 
+  },
+  {
+    "id": "71",
+    "name": "NXG957",
+    "price": "₹39800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Adesk/ad2.jpg",
+    "glb": " ",
+    "stock": 72,
+    "sales": 29 
+  },
+  {
+    "id": "72",
+    "name": "NXG958",
+    "price": "₹41500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Adesk/ad3.jpg",
+    "glb": " ",
+    "stock": 91,
+    "sales": 41 
+  },
+  {
+    "id": "73",
+    "name": "NXG959",
+    "price": "₹42800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Adesk/ad4.jpg",
+    "glb": " ",
+    "stock": 85,
+    "sales": 37 
+  },
+  {
+    "id": "74",
+    "name": "NXG960",
+    "price": "₹44500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Mdesk/md1.jpg",
+    "glb": " ",
+    "stock": 93,
+    "sales": 36 
+  },
+  {
+    "id": "75",
+    "name": "NXG961",
+    "price": "₹45800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Mdesk/md2.jpg",
+    "glb": " ",
+    "stock": 79,
+    "sales": 42 
+  },
+  {
+    "id": "76",
+    "name": "NXG962",
+    "price": "₹47500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Desk/Mdesk/md3.jpg",
+    "glb": " ",
+    "stock": 88,
+    "sales": 31 
+  },
+  {
+    "id": "77",
+    "name": "NXG963",
+    "price": "₹8500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b1.jpg",
+    "glb": " ",
+    "stock": 86,
+    "sales": 32 
+  },
+  {
+    "id": "78",
+    "name": "NXG964",
+    "price": "₹9200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b2.jpg",
+    "glb": " ",
+    "stock": 74,
+    "sales": 39 
+  },
+  {
+    "id": "79",
+    "name": "NXG965",
+    "price": "₹10500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b3.jpg",
+    "glb": " ",
+    "stock": 0,
+    "sales": 45 
+  },
+  {
+    "id": "80",
+    "name": "NXG966",
+    "price": "₹11500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b4.jpg",
+    "glb": " ",
+    "stock": 67,
+    "sales": 28 
+  },
+  {
+    "id": "81",
+    "name": "NXG967",
+    "price": "₹12500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b5.jpg",
+    "glb": " ",
+    "stock": 100,
+    "sales": 53 
+  },
+  {
+    "id": "82",
+    "name": "NXG968",
+    "price": "₹9800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b6.jpg",
+    "glb": " ",
+    "stock": 77,
+    "sales": 34 
+  },
+  {
+    "id": "83",
+    "name": "NXG969",
+    "price": "₹10800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Benches/b7.jpg",
+    "glb": " ",
+    "stock": 83,
+    "sales": 40 
+  },
+  {
+    "id": "84",
+    "name": "NXG970",
+    "price": "₹8500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Wchair/wc1.jpg",
+    "glb": "../Glbs/17.glb ",
+    "stock": 89,
+    "sales": 38 
+  },
+  {
+    "id": "85",
+    "name": "NXG971",
+    "price": "₹9200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Wchair/wc2.jpg",
+    "glb": "../Glbs/17.glb",
+    "stock": 76,
+    "sales": 41 
+  },
+  {
+    "id": "86",
+    "name": "NXG972",
+    "price": "₹10500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Wchair/wc3.jpg",
+    "glb": "  ",
+    "stock": 95,
+    "sales": 50 
+  },
+  {
+    "id": "87",
+    "name": "NXG973",
+    "price": "₹11500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Wchair/wc4.jpg",
+    "glb": "  ",
+    "stock": 83,
+    "sales": 34 
+  },
+  {
+    "id": "88",
+    "name": "NXG974",
+    "price": "₹12500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Wchair/wc5.jpg",
+    "glb": "  ",
+    "stock": 68,
+    "sales": 29 
+  },
+  {
+    "id": "89",
+    "name": "NXG975",
+    "price": "₹13800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Wchair/wc6.jpg",
+    "glb": "  ",
+    "stock": 91,
+    "sales": 46 
+  },
+  {
+    "id": "90",
+    "name": "NXG976",
+    "price": "₹65000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs1.jpg",
+    "glb": " ",
+    "stock": 77,
+    "sales": 30 
+  },
+  {
+    "id": "91",
+    "name": "NXG977",
+    "price": "₹65060",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs2.jpg",
+    "glb": " ",
+    "stock": 85,
+    "sales": 44 
+  },
+  {
+    "id": "92",
+    "name": "NXG978",
+    "price": "₹75000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs3.jpg",
+    "glb": " ",
+    "stock": 91,
+    "sales": 37 
+  },
+  {
+    "id": "93",
+    "name": "NXG979",
+    "price": "₹84500",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs4.jpg",
+    "glb": " ",
+    "stock": 0,
+    "sales": 28 
+  },
+  {
+    "id": "94",
+    "name": "NXG980",
+    "price": "₹63200",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs5.jpg",
+    "glb": " ",
+    "stock": 74,
+    "sales": 33 
+  },
+  {
+    "id": "95",
+    "name": "NXG981",
+    "price": "₹79000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs6.jpg",
+    "glb": " ",
+    "stock": 97,
+    "sales": 50 
+  },
+  {
+    "id": "96",
+    "name": "NXG982",
+    "price": "₹45900",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs7.jpg",
+    "glb": " ",
+    "stock": 81,
+    "sales": 41 
+  },
+  {
+    "id": "97",
+    "name": "NXG983",
+    "price": "₹98000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs8.jpg",
+    "glb": " ",
+    "stock": 93,
+    "sales": 36 
+  },
+  {
+    "id": "98",
+    "name": "NXG984",
+    "price": "₹85000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs9.jpg",
+    "glb": " ",
+    "stock": 79,
+    "sales": 29 
+  },
+  {
+    "id": "99",
+    "name": "NXG985",
+    "price": "₹94300",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs10.jpg",
+    "glb": " ",
+    "stock": 88,
+    "sales": 40 
+  },
+  {
+    "id": "100",
+    "name": "NXG986",
+    "price": "₹59000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs11.jpg",
+    "glb": " ",
+    "stock": 84,
+    "sales": 35 
+  },
+  {
+    "id": "101",
+    "name": "NXG987",
+    "price": "₹70000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs12.jpg",
+    "glb": " ",
+    "stock": 73,
+    "sales": 27 
+  },
+  {
+    "id": "102",
+    "name": "NXG988",
+    "price": "₹66550",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs13.jpg",
+    "glb": " ",
+    "stock": 92,
+    "sales": 47 
+  },
+  {
+    "id": "103",
+    "name": "NXG989",
+    "price": "₹89750",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs14.jpg",
+    "glb": " ",
+    "stock": 80,
+    "sales": 39 
+  },
+  {
+    "id": "104",
+    "name": "NXG990",
+    "price": "₹74550",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Hsofa/hs15.jpg",
+    "glb": " ",
+    "stock": 99,
+    "sales": 48 
+  },
+  {
+    "id": "105",
+    "name": "NXG991",
+    "price": "₹58000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Osofa/os1.jpg",
+    "glb": " ",
+    "stock": 85,
+    "sales": 33 
+  },
+  {
+    "id": "106",
+    "name": "NXG992",
+    "price": "₹89580",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Osofa/os2.jpg",
+    "glb": " ",
+    "stock": 79,
+    "sales": 45 
+  },
+  {
+    "id": "107",
+    "name": "NXG993",
+    "price": "₹85000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Osofa/os3.jpg",
+    "glb": " ",
+    "stock": 0,
+    "sales": 39 
+  },
+  {
+    "id": "108",
+    "name": "NXG994",
+    "price": "₹78000",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Osofa/os4.jpg",
+    "glb": "../Glbs/15.glb",
+    "stock": 67,
+    "sales": 26 
+  },
+  {
+    "id": "109",
+    "name": "NXG995",
+    "price": "₹78800",
+    "dimensions": "30x30x40 cm",
+    "image": "../images/product/Sofas/Osofa/os5.jpg",
+    "glb": " ",
+    "stock": 88,
+    "sales": 48 
+  }
+]
+

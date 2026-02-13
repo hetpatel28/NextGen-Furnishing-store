@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        .category {
+            margin-bottom: 15px;
+        }
+        .results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Furniture Store</h1>
+
+        <div class="category">
+            <label>Select Categories:</label><br>
+            <input type="checkbox" id="chair" value="chair"> Chair<br>
+            <input type="checkbox" id="table" value="table"> Table<br>
+            <input type="checkbox" id="sofa" value="sofa"> Sofa<br>
+            <input type="checkbox" id="waitingChair" value="waiting chair"> Waiting Chair<br>
+            <input type="checkbox" id="desk" value="desk"> Desk<br>
+            <input type="checkbox" id="bench" value="bench"> Bench<br>
+        </div>
+
+        <div class="budget">
+            <label for="budget">Enter your budget:</label>
+            <input type="number" id="budget" placeholder="Enter budget">
+        </div>
+
+        <button onclick="filterResults()">Find Furniture</button>
+
+        <div class="results" id="results">
+            <!-- Results will appear here -->
+        </div>
+    </div>
+
+    <script>
+        const furnitureData = {
+            chair: [{ name: 'Chair A', price: 100 }, { name: 'Chair B', price: 150 }],
+            table: [{ name: 'Table A', price: 200 }, { name: 'Table B', price: 300 }],
+            sofa: [{ name: 'Sofa A', price: 400 }, { name: 'Sofa B', price: 500 }],
+            "waiting chair": [{ name: 'Waiting Chair A', price: 250 }, { name: 'Waiting Chair B', price: 350 }],
+            desk: [{ name: 'Desk A', price: 150 }, { name: 'Desk B', price: 250 }],
+            bench: [{ name: 'Bench A', price: 200 }, { name: 'Bench B', price: 300 }]
+        };
+
+        function filterResults() {
+            const selectedCategories = [];
+            document.querySelectorAll('input[type="checkbox"]:checked').forEach(input => {
+                selectedCategories.push(input.value);
+            });
+
+            const budget = parseInt(document.getElementById('budget').value);
+            if (!budget || selectedCategories.length === 0) {
+                alert('Please select categories and enter a budget.');
+                return;
+            }
+
+            const results = [];
+            function findCombinations(index, currentCombo, currentTotal) {
+                if (index === selectedCategories.length) {
+                    if (currentTotal <= budget) {
+                        results.push(currentCombo.slice());
+                    }
+                    return;
+                }
+
+                const category = selectedCategories[index];
+                for (const item of furnitureData[category]) {
+                    currentCombo.push(item);
+                    findCombinations(index + 1, currentCombo, currentTotal + item.price);
+                    currentCombo.pop();
+                }
+            }
+
+            findCombinations(0, [], 0);
+
+            displayResults(results);
+        }
+
+        function displayResults(results) {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<p>No combinations found within the budget.</p>';
+                return;
+            }
+
+            results.forEach((combination, index) => {
+                const combinationDiv = document.createElement('div');
+                combinationDiv.innerHTML = `<p>Combination ${index + 1}: ${combination.map(item => `${item.name} ($${item.price})`).join(', ')}</p>`;
+                resultsDiv.appendChild(combinationDiv);
+            });
+        }
+    </script>
+</body>
+</html>

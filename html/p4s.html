@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <title>Product page</title>
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <link rel="stylesheet" href="../css folder/sproduct.css">
+  <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"> -->
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.css" crossorigin="anonymous"></script> -->
+</head>
+<body>
+  <div id="navbar"></div>
+  
+  <script>
+    // Helper function to get a query parameter value from the URL
+    function getQueryParam(param) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(param);
+    }
+
+    // Get the product ID from the URL, e.g., product.html?id=1
+    const productId = getQueryParam('id');
+
+    // Fetch the product data from products.json
+    fetch('../json/product.json')
+      .then(response => response.json())
+      .then(products => {
+        // Find the product that matches the given ID
+        const product = products.find(p => p.id === productId);
+
+        // Reference to the HTML container where product details will be displayed
+        const container = document.getElementById('prodetails');
+        if (product) {
+          // Dynamically insert the product details into the page
+          container.innerHTML = `
+            <div class="image-container">
+              <div class="single-pro-image" style="width: fit-content;">
+                  <img src="${product.image}" alt="${product.name}" style="width: 100%; height: 500px; object-fit: cover;"> 
+              </div>
+              <div class="single-pro-image1">
+                <model-viewer 
+                  src="${product.glb}" 
+                  camera-controls 
+                  auto-rotate 
+                  ar 
+                  style="width: 100%; height: 500px;">
+                </model-viewer>
+              </div>
+            </div>
+            <div class="single-pro-details">
+              <p style="font-size: 6rem;">${product.name}</p>
+              <h2 style="margin-top: 1rem;"> ${product.price}</h2>
+
+              <select>
+                  <option>Select Color</option>
+                  <option>Red</option>
+                  <option>Green</option>
+                  <option>Yellow</option>
+                  <option>Blue</option>
+              </select>
+
+              <input type="number" value="1" style="height: 3.3rem; width: 5.5rem; display: flex;">
+              <button class="buy" style="display:inline; padding: 1rem 1rem 1rem 1rem; margin-top: 1rem; margin-right: 0.6rem;">Buy</button>
+              <!-- <button class="normal" style="padding: 1rem 1rem 1rem 1rem; margin-top: 1rem;">Add To Cart</button>  -->
+              <button class="cart-button"  onclick="addToCart('Chair(82)', 6000)" style="padding: 1rem 1rem 1rem 1rem; margin-top: 1rem">Add to Cart</button>
+              <h4>Product Details</h4>
+              <div class="spec">
+                <ul>
+                  <li>Color Option: Black</li>  
+                  <li>Minimum Seat Height: Floor to seat (17")</li>
+                  <li>Maximum Seat Height: Floor to seat (20")</li>
+                  <li>Chair Width: 22.5"</li>
+                  <li>Chair Length: Wall to front (25")</li>
+                  <li>Chair Height: Floor to top (45")</li>
+                </ul>
+                
+                <ul>
+                  <li>Aluminium base with nylon castors</li>
+                  <li>Medium-size gas lift for seat height adjustment</li>
+                  <li>Sleek cushioned seat and back with black PU upholstery</li>
+                  <li>Single locking knee tilt mechanism</li>
+                  <li>PU cover on chrome-plated metal armrest</li>
+                  <li>Swivel chair for easier rotation</li>
+                </ul>
+              </div>
+              
+            </div>
+          
+
+          <div id="feature">
+              <h1 style="color:  rgb(31, 30, 30);">Featured Items</h1>
+          </div>
+
+          <div id="feature" class="section1">
+            <div class="pro">
+                <img src="../images/product/Chair/hb/hb10.jpg">
+                <h5>Buy me, am the best</h5>
+                <h4>₹40000.00</h4>
+            </div>
+            <div class="pro">
+                <img src="../images/product/Chair/hb/hb12.jpg">
+                <h5>Buy me, am the best</h5>
+                <h4>₹55000.00</h4>
+            </div>
+            <div class="pro">
+                <img src="../images/product/Chair/hb/hb11.jpg">
+                <h5>Buy me, am the best</h5>
+                <h4>₹30000.00</h4>
+            </div>
+            <div class="pro">
+                <img src="../images/product/Chair/hb/hb13.jpg">
+                <h5>Buy me, am the best</h5>
+                <h4>₹75000.00</h4>
+            </div>
+          </div>
+          `;
+        } else {
+          container.innerHTML = '<p>Product not found.</p>';
+        }
+      })
+      </script>
+
+  <section id="prodetails" class="section1">
+    
+  </section>
+
+  <div id="footer"></div>
+
+  <script src="../js/cart.js"></script>
+  <script src="../js/nav-loader.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>

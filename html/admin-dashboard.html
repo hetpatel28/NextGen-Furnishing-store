@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../css folder/dashboard1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>NextGen Furnishings</h1>
+        <h2>Admin Dashboard</h2>
+        <ul>
+            <li id="nav-admin"></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#stock-management">Stock Management</a></li>
+            <li><a href="#order-approval">Order Approval</a></li>
+            <li><a href="#" onclick="adminlogout()">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="dashboard">
+            <div class="main-content">
+                <h1>Welcome, Admin</h1>
+                
+                <div class="dashboard-cards">
+                    <div class="card">Total Products: <span id="total-products">0</span></div>
+                    <div class="card">Out of Stock: <span id="out-of-stock">0</span></div>
+                    <div class="card">Total Orders: <span id="total-orders">0</span></div>
+                </div>
+
+                <div class="chart-container">
+                    <canvas id="salesChart"></canvas> 
+                </div>
+                <div class="pie-chart-container">
+                    <div class="chart-container">
+                        <canvas id="stockChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="ordersChart"></canvas>
+                </div>
+                </div>
+                
+                
+                
+            </div>
+        </section>
+
+        <section id="stock-management">
+            <h2>Stock Management</h2>
+            <div>
+                    <label for="product-id">Enter Product ID:</label>
+                    <input type="text" id="product-id" placeholder="Enter ID">
+                    <button onclick="checkProductStock()">Manage Stock</button>
+                </div>
+            <p id="stock-result"></p>
+        </section>
+        
+        <section id="order-approval">
+            <h2>Pending Orders</h2>
+            <table class="orders-table">
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Email</th>
+                        <th>Cart Items</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="orders-table"></tbody>
+            </table>
+        </section>
+    </div>
+    
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/admin-login.js"></script>
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

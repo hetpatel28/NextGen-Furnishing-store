@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="../css folder/cart.css">
+</head>
+<body>
+    <section id="navbar" style="padding-bottom: 60px;"></section>
+
+    <section class="container" id="product-page">
+    </section>
+
+    <section class="container" id="cart-page" style="display: none;">
+        <h1 style="font-size: xx-large;">Shopping Cart</h1>
+        <div id="cart-items"></div>
+        <h3 style="margin-bottom: 20px; font-size:x-large;">Total: ₹<span id="total-price">0</span></h3>
+        <button onclick="showProductPage()" style="margin-left: 590px;">Back to Products</button>
+        <button id="checkout-button" onclick="checkout()" disabled>Checkout</button>
+    </section>
+
+    <section class="container" id="checkout-page" style="display: none;">
+    <h1>Checkout</h1>
+    <form onsubmit="generateInvoice(event)">
+        <label>Name: <input type="text" id="name" required></label><br><br>
+        <label>Address: <textarea id="address" required></textarea></label><br><br>
+        <button type="submit">Go to Payment</button>
+    </form>
+</section>
+
+<div class="container" id="payment-page" style="display: none;">
+    <h1>Payment</h1>
+    <form id="payment-form" >
+        <label><input type="radio" name="method" value="card" required> Credit/Debit Card</label><br>
+        <label><input type="radio" name="method" value="upi"> UPI</label><br>
+        <label><input type="radio" name="method" value="cod"> Cash on Delivery (COD)</label><br><br>
+
+        <div id="card-details" style="display: none;">
+            <label>Card Number: <input type="text" id="card-number" placeholder="XXXX-XXXX-XXXX-XXXX"></label><br>
+            <label>Expiry Date: <input type="text" placeholder="MM/YY"></label><br>
+            <label>CVV: <input type="password" placeholder="***"></label><br>
+        </div>
+
+        <div id="upi-details" style="display: none;">
+            <label>UPI ID: <input type="text" placeholder="example@upi"></label><br>
+        </div>
+
+        <br>
+        <button type="submit">Proceed to Invoice</button>
+    </form>
+</div>
+    <div class="container" id="invoice-page" style="display: none;">
+        <h1 style="padding-top: 20px;">Invoice</h1>
+        <div id="invoice-details"></div>
+        <button onclick="printAndClearCart()">Print Invoice</button>
+    </div>
+
+    <!-- <div id="footer"></div> -->
+
+<script src="../js/cart.js"></script>
+<script src="../js/login.js"></script>
+<script src="../js/nav-loader.js"></script>
+</body>
+</html>

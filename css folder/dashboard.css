@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.sidebar {
+    width: 250px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+}
+.sidebar h1 {
+    color: crimson;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px 0;
+}
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+.dashboard-cards {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+button {
+    padding: 5px 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.dashboard-container { display: flex; }
+.sidebar { width: 200px; background: #333; color: white; padding: 20px; }
+.content { flex: 1; padding: 20px; }
+.chart-container { width: 45%; display: inline-block; }
+.stock-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.stock-table th, .stock-table td { padding: 10px; text-align: left; border: 1px solid #ddd; }
+.out-of-stock { background-color: red; color: white; }
